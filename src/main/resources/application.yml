@@ -1,0 +1,18 @@
+bot:
+  token: ${BOT_TOKEN}
+  name: ${BOT_NAME}
+spring:
+  flyway:
+    enabled: true
+    url: ${DB_URL}
+    user: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  application:
+    name: date_bot
